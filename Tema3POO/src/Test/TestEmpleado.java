@@ -15,6 +15,5 @@ public class TestEmpleado {
 		cad+="Empleado que trabajo mas horas: "+Empleado.mayorHrsTrabajadas(carlos, sonia);
 		Tools.imprimePantalla(cad+"\n"+carlos.toString()+"\n"+sonia.toString()+"\n"+alma.toString()+
 				"\n\n Total de objetos creados: \n"+Empleado.getConta());
-		
 	}
 }

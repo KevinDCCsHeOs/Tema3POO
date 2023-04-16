@@ -14,14 +14,14 @@ public class TestPedido {
 			sel=Desplegable1(menu);
 			switch (sel) {
 			case "1. Un primer plato y una bebida":
-				Pedido prim=new Pedido(Desplegable("Crema de espincas,Ensalada de verduras,Crema de brocoli,Caldo tlalpeño,Sopa mixteca"),
+				Pedido.CalcularPedido(Desplegable("Crema de espincas,Ensalada de verduras,Crema de brocoli,Caldo tlalpeño,Sopa mixteca"),
 						Desplegable("Coca cola,Pepsi,Naranjada,Limonada,Agua de sabor"));break;
 			case "2. Un primer plato + un segundo plato y una bebida":
-				Pedido seg=new Pedido(Desplegable("Crema de espincas,Ensalada de verduras,Crema de brocoli,Caldo tlalpeño,Sopa mixteca"),
+				Pedido.CalcularPedido(Desplegable("Crema de espincas,Ensalada de verduras,Crema de brocoli,Caldo tlalpeño,Sopa mixteca"),
 						Desplegable("Filete de pescado,Milanesa de pollo,Bistec a la mexicana,Pollo en escabeche,Carne asada,Lomo relleno,Pollo a la plancha"),
 						Desplegable("Coca cola,Pepsi,Naranjada,Limonada,Agua de sabor"));break;
 			case "3. Un primer plato + un segundo plato + una bebida y un postre":
-				Pedido ter=new Pedido(Desplegable("Crema de espincas,Ensalada de verduras,Crema de brocoli,Caldo tlalpeño,Sopa mixteca"),
+				Pedido.CalcularPedido(Desplegable("Crema de espincas,Ensalada de verduras,Crema de brocoli,Caldo tlalpeño,Sopa mixteca"),
 						Desplegable("Filete de pescado,Milanesa de pollo,Bistec a la mexicana,Pollo en escabeche,Carne asada,Lomo relleno,Pollo a la plancha"),
 						Desplegable("Coca cola,Pepsi,Naranjada,Limonada,Agua de sabor"),
 						Desplegable("Pastel helado,Helado,Fresas con crema,Platanos fritos,Flan casero,Gelatina"));break;
