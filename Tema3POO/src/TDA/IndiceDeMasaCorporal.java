@@ -72,4 +72,9 @@ public class IndiceDeMasaCorporal {
 		else if (x>=40) v="Obesidad Morbida";
 		return v;
 	}
+	@Override
+	public String toString() {
+		return "IndiceDeMasaCorporal [nom=" + nom + ", edad=" + edad + ", sex=" + sex + ", peso=" + peso + ", altura="
+				+ altura + ", imc=" + imc + ", estPeso=" + estPeso + "]";
+	}
 }

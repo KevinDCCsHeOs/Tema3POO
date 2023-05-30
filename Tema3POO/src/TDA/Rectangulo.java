@@ -22,7 +22,7 @@ public class Rectangulo {
 	}
 	@Override
 	public String toString() {
-		return "Rectangulo [base=" + base + ", altura=" + altura + "]";
+		return "Rectangulo [base=" + base + ", altura=" + altura +", area = "+ AreaRectangulo() +", perimetro = "+PerimetroRectangulo()+"]";
 	}
 	public float AreaRectangulo() {
 		return (base*altura);
